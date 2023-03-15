@@ -1,6 +1,8 @@
 type Query {
     todos(query: String): [ToDo!]!
 }
+
+
 type Mutation {
     createToDo(data: CreateToDoInput!): ToDo!
     deleteToDo(id: ID!): ToDo!
@@ -12,6 +14,7 @@ input CreateToDoInput {
     content: String!
     isActive: Boolean!
 }
+
 
 input UpdateToDoInput {
     content: String
