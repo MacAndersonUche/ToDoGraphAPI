@@ -18,8 +18,7 @@ const Mutation = {
             throw new Error('ToDo not found')
         }
         db = db.filter(item => item.id !== id)
-        console.log(db);
-        console.log(foundItem);
+      
         
         return foundItem
     },
