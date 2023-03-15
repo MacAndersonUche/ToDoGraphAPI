@@ -6,9 +6,6 @@ const Query = {
             return db;
         }
         return db.filter(todo => todo.id === id);
-    },
-    me() {
-        return "hey";
     }
 };
 exports.default = Query;
