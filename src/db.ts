@@ -1,4 +1,4 @@
-const db = [
+let db = [
     {
         id: "1",
         content: "note1",
